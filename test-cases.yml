@@ -39,9 +39,11 @@
   test-data: |
     Логин = ytfgubz717@ramvv.com Пароль = ytfgubz717
   steps:
-    - х
-    - х
-    - х
+    - нажать create a game
+    - выбрать уровень Level - elementary
+    - выбрать Game Type - with a bot
+    - Time control оставить без изменения
+    - Choose task by name or tags оставить без изменения
+    - нажать create battle
   expected-result: |
     Должна открыться новая игра
-
