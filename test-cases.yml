@@ -22,7 +22,7 @@
   prerequisites:
     Открыта страница логина
   test-data: |
-    Логин = ytfgubz@ramvv.com Пароль = ytfgubz717
+    Логин = ytfgubz717@ramvv.com Пароль = ytfgubz717
   steps:
     - Вводим логин
     - Вводим пароль
