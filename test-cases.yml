@@ -275,3 +275,21 @@
   expected-result: |
     1 пользователь должен авторизироваться
     2 должна появиться надпись Successfully authenticated
+
+- summary: |
+    Проверка возможности войти на сайт через discord
+  requirement: |
+    Должна быть возможность войти на сайт через discord
+  prerequisites: |
+    Выполнен выход из под своего логина
+    создан аккаунт на discord.com
+    Открыта главная страница сайта
+  test-data: |
+    Тестовые данные
+    Логин и Пароль на discord.com
+  steps:
+    - Нажать sing in
+    - На открывшейся странице выбрать sing in with discord
+    - В появившемся меню выбрать authorize
+  expected-result: |
+    пользователь должен авторизироваться
